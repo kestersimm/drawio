@@ -1,1 +1,97 @@
-<mxfile host="www.draw.io" modified="2019-11-30T11:35:08.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="12.3.3" etag="l02V9cyVq87QPcR9EFHH" type="github" pages="1"><diagram id="uCt4oJjbHXlRVISPyTZA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-30T12:00:02.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="agv2uxrLxwSagGcd5Dex" version="12.3.3" type="github" pages="1">
+  <diagram id="uCt4oJjbHXlRVISPyTZA" name="Page-1">
+    <mxGraphModel dx="1408" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="AO9O5basNS_rXhzaICSH-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="80" width="410" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-1" value="&lt;b&gt;Person&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="AO9O5basNS_rXhzaICSH-6">
+          <mxGeometry width="410" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-2" value="&lt;u&gt;librarycardNo&lt;/u&gt; (PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-6">
+          <mxGeometry y="30" width="160.43478260869566" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-4" value="name (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-6">
+          <mxGeometry x="160.43478260869566" y="30" width="98.04347826086956" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-5" value="address (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-6">
+          <mxGeometry x="258.4782608695652" y="30" width="151.5217391304348" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="210" width="650" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-9" value="&lt;b&gt;BookLoan&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry width="650" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-10" value="&lt;u&gt;loanId&lt;/u&gt; (PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry y="30" width="160.43478260869566" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-11" value="loanDate (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry x="160.43478260869566" y="30" width="98.04347826086956" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-12" value="borrower (FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry x="258.4782608695652" y="30" width="151.5217391304348" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-14" value="librarian (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry x="410" y="30" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-15" value="bookCopy (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+          <mxGeometry x="530" y="30" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="320" width="650" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-35" value="&lt;b&gt;BookCopy&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="AO9O5basNS_rXhzaICSH-34">
+          <mxGeometry width="430" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-36" value="&lt;u&gt;copyNo&lt;/u&gt; (PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-34">
+          <mxGeometry y="30" width="160.43478260869566" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-37" value="purchaseDate (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-34">
+          <mxGeometry x="160" y="30" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-38" value="title (FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-34">
+          <mxGeometry x="290" y="30" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="430" width="650" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-43" value="&lt;b&gt;BookTitle&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+          <mxGeometry width="530" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-44" value="&lt;u&gt;isbn&lt;/u&gt; (PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+          <mxGeometry y="30" width="160.43478260869566" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-45" value="title (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+          <mxGeometry x="160.43478260869566" y="30" width="98.04347826086956" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-46" value="author (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+          <mxGeometry x="258.4782608695652" y="30" width="151.5217391304348" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-47" value="category (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+          <mxGeometry x="410" y="30" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="80" width="148.69565217391312" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-17" value="&lt;b&gt;Librarian&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="AO9O5basNS_rXhzaICSH-49">
+          <mxGeometry width="148.2926829268293" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-18" value="&lt;u&gt;employeeNo&lt;/u&gt; (PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-49">
+          <mxGeometry y="30" width="148.6956521739131" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-51" value="&lt;b&gt;BookCategory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="290" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-52" value="&lt;u&gt;categoryId&lt;/u&gt;&amp;nbsp;&amp;nbsp;(PK) UNIQUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="148.6956521739131" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AO9O5basNS_rXhzaICSH-53" value="Object" style="html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="188" y="570" width="110" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
