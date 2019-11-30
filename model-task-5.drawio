@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-30T15:19:59.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="hNT6qkCcApylU-vEZ2E0" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-30T15:22:12.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="nFFnsxJlnz75cihKK8Wt" version="12.3.3" type="github" pages="1">
   <diagram id="9DUGxnPBFYWtKnW7rblh" name="Page-1">
     <mxGraphModel dx="1408" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
         <mxCell id="I-3KL79WUWTxIudPwpj1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.321;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="I-3KL79WUWTxIudPwpj1-23" target="I-3KL79WUWTxIudPwpj1-24">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="I-3KL79WUWTxIudPwpj1-23" value=":register" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="I-3KL79WUWTxIudPwpj1-23" value="&lt;b&gt;:Register&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="610" y="40" width="50" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="I-3KL79WUWTxIudPwpj1-24" value="register" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -100,7 +100,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-3KL79WUWTxIudPwpj1-44" value="&lt;b&gt;Register Patient(nId,patientName,regNo,emergencyAssesmentResult,roomNumber)&lt;/b&gt;" style="text;html=1;" vertex="1" parent="1">
+        <mxCell id="I-3KL79WUWTxIudPwpj1-44" value="&lt;b&gt;Register Patient(nationalId,patientName,regNo,emergencyAssesmentResult,roomNumber)&lt;/b&gt;" style="text;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="150" width="470" height="30" as="geometry"/>
         </mxCell>
       </root>
