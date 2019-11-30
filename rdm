@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-30T12:32:33.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="YgOkSqJjydqXEaxqIVFc" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-30T12:35:40.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="sbuqdw56xu1D6BJgh4zR" version="12.3.3" type="github" pages="1">
   <diagram id="uCt4oJjbHXlRVISPyTZA" name="Page-1">
     <mxGraphModel dx="1408" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,13 +31,13 @@
         <mxCell id="AO9O5basNS_rXhzaICSH-11" value="loanDate (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
           <mxGeometry x="160.43478260869566" y="30" width="98.04347826086956" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="AO9O5basNS_rXhzaICSH-12" value="borrower (AK1) (FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+        <mxCell id="AO9O5basNS_rXhzaICSH-12" value="borrower&amp;nbsp; (FK) (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
           <mxGeometry x="258.4782608695652" y="30" width="151.5217391304348" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="AO9O5basNS_rXhzaICSH-14" value="librarian (AK1) (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+        <mxCell id="AO9O5basNS_rXhzaICSH-14" value="librarian&amp;nbsp; (FK) (AK1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
           <mxGeometry x="410" y="30" width="120" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="AO9O5basNS_rXhzaICSH-15" value="bookCopy (AK1) (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
+        <mxCell id="AO9O5basNS_rXhzaICSH-15" value="bookCopy(FK) (AK1)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-8">
           <mxGeometry x="530" y="30" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AO9O5basNS_rXhzaICSH-34" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -70,7 +70,7 @@
         <mxCell id="AO9O5basNS_rXhzaICSH-46" value="author (AK1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
           <mxGeometry x="258.4782608695652" y="30" width="151.5217391304348" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="AO9O5basNS_rXhzaICSH-47" value="category (AK1) (FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
+        <mxCell id="AO9O5basNS_rXhzaICSH-47" value="category (FK) (AK1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="AO9O5basNS_rXhzaICSH-42">
           <mxGeometry x="410" y="30" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AO9O5basNS_rXhzaICSH-49" value="" style="group" vertex="1" connectable="0" parent="1">
